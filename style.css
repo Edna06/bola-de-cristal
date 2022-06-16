@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+
+text-align: center;
+background: rgb(12, 11, 11);
+
+color: white;
+}
+
+img {
+
+  margin: auto;
+  height: 380px;
+}
+
+
+#container {
+  margin: 0rem auto 2rem;
+
+  width: 80%;
+  max-width: 800px;
+
+  margin-inline: auto; 
+  /* substitui o margin-left e  o margin-right */
+
+}
+
+h1, p {
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+
+h1 {
+font-size: 5rem;
+
+color: rgb(255, 255, 255);
+}
+
+h1:hover {
+  text-shadow: red -2px 0,
+               cyan 2px 0;
+} 
+
+p {
+  opacity: 0.7;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  font-weight: 800;
+}
+
+input, button {
+  display: block;
+  width: 60%;
+
+  margin-left: 21%;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  margin-bottom: 4px;
+  font-size: 18px;
+
+  border: none;
+}
+
+button {
+  background: rgb(66, 146, 168);
+  border: none;
+
+  color: white;
+  font-weight: 800;
+  font-size: 17px;
+
+  cursor: pointer;
+  transition: filter .7s;
+}
+
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+#resposta {
+  margin-top: 20px;
+
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
